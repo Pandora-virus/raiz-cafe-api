@@ -1,0 +1,43 @@
+{
+  "name": "raiz-cafe-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pandora-virus/raiz-cafe-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pandora-virus/raiz-cafe-api/issues"
+  },
+  "homepage": "https://github.com/Pandora-virus/raiz-cafe-api#readme",
+  "dependencies": {
+    "@planetscale/database": "^1.20.1",
+    "@prisma/adapter-planetscale": "^7.8.0",
+    "@prisma/client": "^6.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.5",
+    "prisma": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.3",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "prisma": {
+  "seed": "ts-node prisma/seed.ts"
+}
+}
