@@ -56,13 +56,13 @@ async function main() {
         estoque: 20,
       },
       {
-        nome: "Coador de Pano Artesanal",
-        descricao: "Coador de pano 100% algodão orgânico, reutilizável. Suporte em bambu.",
+        nome: "Coador V60 Acrílico Premium",
+        descricao: "Fabricado em acrílico resistente e leve, é ideal tanto para o preparo diário quanto para momentos especiais de degustação. Compatível com filtros V60, oferece praticidade, durabilidade e resultados consistentes em cada preparo.",
         preco: 48.90,
         categoria: "Utensílios",
         badge: "Novo",
         emoji: "🔻",
-        imagem: "assets/coador-pano.svg",
+        imagem: "assets/produtos/v60.jpg",
         estoque: 25,
       },
       {
